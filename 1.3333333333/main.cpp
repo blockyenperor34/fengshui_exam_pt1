@@ -12,8 +12,7 @@ int main(int argc, char** argv) {
     cin >> n;
     for (int i = -n + 1; i <= n - 1; i++) {
         for (int j = -n + 1; j <= n - 1; j++) {
-		
-            if (abs(j) > abs(i)) cout << pt(abs(j) + 1) << " ";
+		    if (abs(j) > abs(i)) cout << pt(abs(j) + 1) << " ";
             else cout << pt(abs(i) + 1) << " ";
         }
         cout << endl;
