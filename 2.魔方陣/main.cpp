@@ -29,7 +29,6 @@ int main(int argc, char** argv) {
             y = y - 1;
         }
         else {
-
             x = x + 1; if (x > n - 1) x = 0;
             y = y + 1; if (y > n - 1) y = 0;
         }

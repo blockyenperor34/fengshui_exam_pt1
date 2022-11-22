@@ -8,15 +8,12 @@ int main(int argc, char** argv) {
 	cin >> a >> b;
 	x = a;
 	y = b;
-
 	ilcm = a * b;
 	do {
 		c = a % b;
 		a = b;
 		b = c;
 	} while (b != 0);
-
-
 	ilcm = ilcm / a;
 	cout << "gcd:" << a << endl;
 	cout << "lcm:" << ilcm << endl;
